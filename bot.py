@@ -3,7 +3,7 @@ import finder
 from telebot import types
 from playwright.sync_api import sync_playwright
 
-bot = telebot.TeleBot("5652909328:AAFDsOyRb943P08XXqaNTVTgKh2wxbfr0r0")
+bot = telebot.TeleBot("")
 
 bot.set_my_commands([
     telebot.types.BotCommand("/start", "Start Bot"),
